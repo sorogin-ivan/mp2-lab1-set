@@ -1,0 +1,21 @@
+﻿Сборка начата 05.10.2015 19:22:37.
+     1>Проект "C:\Иван\Лаба!\mp2-lab1-set\sln\vc10\test_bitfield\test_bitfield.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\test_bitfield.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Иван\Лаба!\mp2-lab1-set\sln\vc10\Debug\test_bitfield.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug gtest.lib bitfield.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test_bitfield.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Иван\Лаба!\mp2-lab1-set\sln\vc10\Debug\test_bitfield.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Иван\Лаба!\mp2-lab1-set\sln\vc10\Debug\test_bitfield.lib" /MACHINE:X86 Debug\test_bitfield.exe.embed.manifest.res
+         Debug\test_main.obj
+         Debug\test_tbitfield.obj
+         Debug\test_tset.obj
+         "C:\Иван\Лаба!\mp2-lab1-set\sln\vc10\Debug\gtest.lib"
+         "C:\Иван\Лаба!\mp2-lab1-set\sln\vc10\Debug\bitfield.lib"
+     1>LINK : fatal error LNK1104: не удается открыть файл "bitfield.lib"
+     1>Построение проекта "C:\Иван\Лаба!\mp2-lab1-set\sln\vc10\test_bitfield\test_bitfield.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.39

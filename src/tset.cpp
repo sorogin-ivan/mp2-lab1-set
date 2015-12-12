@@ -114,20 +114,27 @@ return a;
 
 // перегрузка ввода/вывода 
 
-istream &operator»(istream &istr, TSet &s) // ввод 
+istream &operator>>(istream &istr, TSet &s) // ввод 
 { 
 int a; 
 for (int i=0;i<s.GetMaxPower();i++) { 
-istr » a; 
+istr >> a; 
 s.InsElem (a); 
 } 
 return istr; 
 } 
 
-ostream& operator«(ostream &ostr, const TSet &s) // вывод 
+ostream& operator<<(ostream &ostr, const TSet &s) // вывод 
 { 
-for (int i=0; i < s.GetMaxPower(); i++) { 
-ostr « s.IsMember(i); 
+int i,n; 
+char ch = ' '; 
+n = s.GetMaxPower(); 
+for ( i=0;i<n;i++) { 
+if (s.IsMember(i)) { 
+ostr << ch << ' ' << i; 
+ch = ','; 
 } 
+} 
+ostr << " }"; 
 return ostr; 
 }
